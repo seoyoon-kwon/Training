@@ -38,7 +38,8 @@ export class AccountComponent implements OnInit {
     this.showUpdate = false;
   }
 
-  postAccountDetailes() {
+
+  postAccountDetails() {
     this.accountModelObj.firstname = this.formValue.value.firstname;
     this.accountModelObj.lastname = this.formValue.value.lastname;
     this.accountModelObj.email = this.formValue.value.email;
@@ -110,7 +111,7 @@ export class AccountComponent implements OnInit {
 
   }
 
-  updateAccountDetailes() {
+  updateAccountDetails() {
     this.accountModelObj.firstname = this.formValue.value.firstname;
     this.accountModelObj.lastname = this.formValue.value.lastname;
     this.accountModelObj.email = this.formValue.value.email;

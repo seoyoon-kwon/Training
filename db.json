@@ -1,5 +1,24 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "firstname": "SY",
+      "lastname": "Kwon",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "mobile": 1012341234,
+      "department": "BOSS",
+      "id": 1
+    },
+    {
+      "firstname": "test2",
+      "lastname": "test2",
+      "email": "test2@gmail.com",
+      "password": "1234",
+      "mobile": 1012341234,
+      "department": "toilet",
+      "id": 2
+    }
+  ],
   "signupUsers": [],
   "profile": {
     "name": "typicode"
